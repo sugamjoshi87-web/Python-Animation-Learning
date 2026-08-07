@@ -1,13 +1,18 @@
-# Python Animation Learning
+# 🚀 Python Animation Learning
 
-## Project 1: Bouncing Ball Animation
+This repository documents my journey of learning **Python animations** using **Matplotlib**. Each project focuses on a new animation concept and helps me strengthen my Python programming skills.
 
-This project demonstrates a bouncing ball animation using Python and Matplotlib.
+---
 
-### Concepts Learned
+## 📂 Projects
 
+### ✅ Project 1: Bouncing Ball Animation
+
+A simple animation of a ball bouncing inside a fixed boundary.
+
+**Concepts Learned**
 - FuncAnimation
-- Figure and Axes
+- Figure & Axes
 - Artists
 - update(frame)
 - Position (x, y)
@@ -15,14 +20,44 @@ This project demonstrates a bouncing ball animation using Python and Matplotlib.
 - Collision Detection
 - blit=True
 
-### Technologies
+---
+
+### ✅ Project 2: Moving Car Animation
+
+A moving car created using geometric shapes and animated with Matplotlib.
+
+**Concepts Learned**
+- Rectangle
+- Circle
+- add_patch()
+- set_xy()
+- center property
+- Multiple Artists
+- Relative Positioning
+- FuncAnimation
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Matplotlib
 
-### Future Projects
+---
 
-- Moving Car
-- Sine Wave Animation
-- Analog Clock
-- Solar System
+## 📚 Learning Goal
+
+My goal is to improve my Python programming skills by building small animation projects and sharing my progress on GitHub and LinkedIn.
+
+---
+
+## 🚀 Upcoming Projects
+
+- 🔄 Animated Sine Wave
+- 🕒 Analog Clock Animation
+- ☀️ Solar System Animation
+- 🎮 Mini Python Animation Projects
+
+---
+
+⭐ If you're learning Python animations too, feel free to explore this repository!
