@@ -1,63 +1,141 @@
-# 🚀 Python Animation Learning
+# Python Animation Learning 🎬🐍
 
-This repository documents my journey of learning **Python animations** using **Matplotlib**. Each project focuses on a new animation concept and helps me strengthen my Python programming skills.
+This repository documents my journey of learning **Python animation using Matplotlib** through small hands-on projects.
 
----
-
-## 📂 Projects
-
-### ✅ Project 1: Bouncing Ball Animation
-
-A simple animation of a ball bouncing inside a fixed boundary.
-
-**Concepts Learned**
-- FuncAnimation
-- Figure & Axes
-- Artists
-- update(frame)
-- Position (x, y)
-- Velocity (dx, dy)
-- Collision Detection
-- blit=True
+The goal is to understand animation concepts by building projects from scratch and gradually adding more features.
 
 ---
 
-### ✅ Project 2: Moving Car Animation
+## 🎯 Project 1: Bouncing Ball Animation
 
-A moving car created using geometric shapes and animated with Matplotlib.
+A simple bouncing ball animation created using Python and Matplotlib.
 
-**Concepts Learned**
-- Rectangle
-- Circle
-- add_patch()
-- set_xy()
-- center property
-- Multiple Artists
-- Relative Positioning
-- FuncAnimation
+### Concepts Learned
 
----
+* `FuncAnimation`
+* Figure and Axes
+* Artists
+* `update(frame)`
+* Position `(x, y)`
+* Velocity `(dx, dy)`
+* Collision detection
+* `blit=True`
+* Animation frames and intervals
 
-## 🛠️ Technologies Used
+### Technologies
 
-- Python
-- Matplotlib
+* Python
+* Matplotlib
 
----
+### File
 
-## 📚 Learning Goal
-
-My goal is to improve my Python programming skills by building small animation projects and sharing my progress on GitHub and LinkedIn.
-
----
-
-## 🚀 Upcoming Projects
-
-- 🔄 Animated Sine Wave
-- 🕒 Analog Clock Animation
-- ☀️ Solar System Animation
-- 🎮 Mini Python Animation Projects
+```text
+Animation01_BouncingBall.py
+```
 
 ---
 
-⭐ If you're learning Python animations too, feel free to explore this repository!
+## 🚗 Project 2: Moving Car Animation
+
+A moving car animation created using **Matplotlib patches and FuncAnimation**.
+
+The scene contains a moving car, road markings, and trees. The project helped me understand how multiple Matplotlib Artists can be updated together.
+
+### Features
+
+* 🚗 Moving car
+* 🛞 Two wheels
+* 🏠 Car roof
+* 🪟 Windows
+* 💡 Headlight
+* 🔴 Tail light
+* 🛣️ Moving road markings
+* 🌳 Multiple moving trees
+* 🔄 Continuous movement
+* 🎬 Frame-based animation
+
+### Concepts Learned
+
+* `FuncAnimation`
+* `Rectangle`
+* `Circle`
+* Matplotlib Patches
+* Matplotlib Artists
+* `set_xy()`
+* `.center`
+* Position variables
+* Lists
+* `zip()`
+* Loops
+* `global` variables
+* Continuous movement
+* Object resetting
+* `blit=True`
+
+### Technologies
+
+* Python
+* Matplotlib
+
+### File
+
+```text
+Animation02_Moving_Car.py
+```
+
+---
+
+## 📚 My Learning Progress
+
+| Project   | Topic                   | Status      |
+| --------- | ----------------------- | ----------- |
+| Project 1 | Bouncing Ball Animation | ✅ Completed |
+| Project 2 | Moving Car Animation    | ✅ Completed |
+| Project 3 | Sine Wave Animation     | 🔜 Upcoming |
+| Project 4 | Analog Clock            | 🔜 Upcoming |
+| Project 5 | Solar System            | 🔜 Upcoming |
+
+---
+
+## 🚀 Future Improvements
+
+I plan to gradually make these animations more advanced by adding:
+
+* 🌞 Sun and clouds
+* 🌙 Day/night mode
+* 🚦 Traffic lights
+* 🚙 Multiple vehicles
+* 🏔️ Mountains and buildings
+* 💡 Animated headlights
+* 🎵 Background sound
+* 🎬 Video export
+* ⚡ More efficient code using functions and classes
+
+---
+
+## 🧠 What I'm Practicing
+
+Through these projects, I am improving my understanding of:
+
+* Python programming
+* Functions
+* Loops
+* Lists
+* Variables
+* Object movement
+* Animation logic
+* Matplotlib
+* Problem solving
+* Writing cleaner and reusable code
+
+---
+
+## 👨‍💻 Author
+
+**Sugam Joshi**
+
+Computer Engineering Student
+
+---
+
+⭐ This repository is part of my journey to improve my **Python programming and visualization skills through practical projects**.
