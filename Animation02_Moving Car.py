@@ -94,5 +94,5 @@ def update(frame):
 
     return body,front_wheel,rear_wheel,roof,window_1,window_2,headlight,tail_light,*road_lines,truck1,leaves1,truck2,leaves2,
 
-ani = FuncAnimation(fig, update, frames=250, interval = 20, blit = True, repeat = False)
+ani = FuncAnimation(fig, update, frames=500, interval = 20, blit = True, repeat = False)
 plt.show()

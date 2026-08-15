@@ -1,12 +1,11 @@
-# Python Animation Learning 🎬🐍
+# Python Animation Learning 
 
 This repository documents my journey of learning **Python animation using Matplotlib** through small hands-on projects.
 
 The goal is to understand animation concepts by building projects from scratch and gradually adding more features.
 
----
 
-## 🎯 Project 1: Bouncing Ball Animation
+##  Project 1: Bouncing Ball Animation
 
 A simple bouncing ball animation created using Python and Matplotlib.
 
@@ -85,13 +84,92 @@ Animation02_Moving_Car.py
 
 ---
 
+### 🌊 Project 3: Interactive Sine Wave Animation
+
+An interactive sine wave animation created using Python, NumPy, and Matplotlib.
+
+The project started with a basic animated sine wave and was gradually developed by adding amplitude, frequency, phase, offset, and keyboard interaction.
+
+### Features
+🌊 Animated sine wave
+
+📈 Adjustable amplitude
+
+🔄 Adjustable frequency
+
+⏯️ Pause and resume animation
+
+🔁 Reset functionality
+
+🖱️ Mouse interaction
+
+🎬 Frame-based animation
+
+⚡ Smooth animation using blit=True
+
+### Keyboard Controls
+
+Key	 Action
+↑	 Increase amplitude
+↓	 Decrease amplitude
+→	 Increase frequency
+←	 Decrease frequency
+SPACE	 Pause / Resume
+R	 Reset
+
+### Mathematical Model
+
+The sine wave is represented by:
+
+y = A sin(Bx + φ) + C
+Where:
+
+A = Amplitude
+
+B = Frequency
+
+φ = Phase
+
+C = Vertical Offset
+
+### Concepts Learned
+
+* NumPy arrays
+* np.linspace()
+* np.sin()
+Mathematical functions
+Sine waves
+Amplitude
+Frequency
+Phase
+Offset
+FuncAnimation
+update(frame)
+init_func
+blit=True
+Keyboard events
+Mouse events
+mpl_connect()
+Interactive visualization
+Program state management
+
+### Technologies
+
+Python
+NumPy
+Matplotlib
+
+ ### File
+
+Animation03_Interactive_Sine_Wave.py
+
 ## 📚 My Learning Progress
 
 | Project   | Topic                   | Status      |
 | --------- | ----------------------- | ----------- |
 | Project 1 | Bouncing Ball Animation | ✅ Completed |
 | Project 2 | Moving Car Animation    | ✅ Completed |
-| Project 3 | Sine Wave Animation     | 🔜 Upcoming |
+| Project 3 | Sine Wave Animation     | ✅  Completed |
 | Project 4 | Analog Clock            | 🔜 Upcoming |
 | Project 5 | Solar System            | 🔜 Upcoming |
 
