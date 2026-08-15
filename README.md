@@ -109,19 +109,21 @@ The project started with a basic animated sine wave and was gradually developed 
 
 ### Keyboard Controls
 
-Key	 Action
-↑	 Increase amplitude
-↓	 Decrease amplitude
-→	 Increase frequency
-←	 Decrease frequency
-SPACE	 Pause / Resume
-R	 Reset
+| Key |	| Action     |
+| --- |  ----------- |
+| ↑	  | | Increase amplitude |
+| ↓	  | | Decrease amplitude |
+| →	  | | Increase frequency |
+| ←	  | | Decrease frequency |
+|SPACE|	| Pause / Resume     |
+| R	  | | Reset              |
 
 ### Mathematical Model
 
 The sine wave is represented by:
 
 y = A sin(Bx + φ) + C
+
 Where:
 
 A = Amplitude
@@ -137,31 +139,33 @@ C = Vertical Offset
 * NumPy arrays
 * np.linspace()
 * np.sin()
-Mathematical functions
-Sine waves
-Amplitude
-Frequency
-Phase
-Offset
-FuncAnimation
-update(frame)
-init_func
-blit=True
-Keyboard events
-Mouse events
-mpl_connect()
-Interactive visualization
-Program state management
+* Mathematical functions
+* Sine waves
+* Amplitude
+* Frequency
+* Phase
+* Offset
+* FuncAnimation
+* update(frame)
+* init_func
+* blit=True
+* Keyboard events
+* Mouse events
+* mpl_connect()
+* Interactive visualization
+* Program state management
 
 ### Technologies
 
-Python
-NumPy
-Matplotlib
+* Python
+* NumPy
+* Matplotlib
 
  ### File
 
+```text
 Animation03_Interactive_Sine_Wave.py
+```
 
 ## 📚 My Learning Progress
 
