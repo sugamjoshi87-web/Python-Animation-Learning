@@ -107,16 +107,16 @@ The project started with a basic animated sine wave and was gradually developed 
 
 ⚡ Smooth animation using blit=True
 
-### Keyboard Controls
+### 🎮 Keyboard Controls
 
-| Key |	| Action     |
-| --- |  ----------- |
-| ↑	  | | Increase amplitude |
-| ↓	  | | Decrease amplitude |
-| →	  | | Increase frequency |
-| ←	  | | Decrease frequency |
-|SPACE|	| Pause / Resume     |
-| R	  | | Reset              |
+| Key | Action |
+|---|---|
+| ⬆️ Up Arrow | Increase amplitude |
+| ⬇️ Down Arrow | Decrease amplitude |
+| ➡️ Right Arrow | Increase frequency |
+| ⬅️ Left Arrow | Decrease frequency |
+| `SPACE` | Pause / Resume animation |
+| `R` | Reset animation parameters |
 
 ### Mathematical Model
 
