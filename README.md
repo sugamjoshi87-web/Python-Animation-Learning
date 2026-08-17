@@ -223,14 +223,20 @@ The clock converts:
 60 minutes → one full rotation
 12 hours   → one full rotation
 The hour and minute calculations also include fractional time so that the hands move naturally between the clock numbers.
+```
 
 ### Technologies
 
-Python, NumPy, Matplotlib, datetime
+* Python
+* NumPy
+* Matplotlib
+* datetime
 
 ### File
 
+```
 `Animation04_Analog_Clock.py`
+```
 
 ## 📚 My Learning Progress
 
@@ -246,17 +252,23 @@ Python, NumPy, Matplotlib, datetime
 
 ## 🚀 Future Improvements
 
-I plan to gradually make these animations more advanced by adding:
+I plan to gradually make these animation projects more advanced by adding:
 
-* 🌞 Sun and clouds
-* 🌙 Day/night mode
-* 🚦 Traffic lights
-* 🚙 Multiple vehicles
-* 🏔️ Mountains and buildings
-* 💡 Animated headlights
-* 🎵 Background sound
-* 🎬 Video export
-* ⚡ More efficient code using functions and classes
+* 🎮 More interactive controls and user input
+* 🎬 More complex animations and simulations
+* ⚙️ Physics-based movement and interactions
+* 📡 Real-time data integration
+* 🖱️ Keyboard and mouse controls
+* ⚡ Improved animation performance
+* 🧩 Better use of Matplotlib Artists and Patches
+* 💾 Video and GIF export
+* 🔧 More reusable code using functions and classes
+* 🏗️ Object-oriented programming for larger projects
+* 📁 Better project structure and code organization
+* 📐 More advanced mathematical visualizations
+* 🔬 Interactive simulations
+* 🌌 Advanced projects such as solar system and      physics simulations
+* 📊 Exploring other Python visualization and animation libraries
 
 ---
 
