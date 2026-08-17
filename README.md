@@ -167,6 +167,71 @@ C = Vertical Offset
 Animation03_Interactive_Sine_Wave.py
 ```
 
+---
+
+## 🕐 Project 4: Real-Time Analog Clock
+
+A real-time analog clock created using **Python, NumPy, Matplotlib, and the datetime module**.
+
+The project started with a basic clock face and was gradually developed by adding clock numbers, tick marks, animated hour, minute, and second hands, a center pin, and a digital time display.
+
+### Features
+
+* 🕐 Real-time analog clock
+* 🔢 12 clock numbers
+*  |  Hour, minute, and second tick marks`
+* ⏱️ Animated second hand
+* 🕒 Animated minute hand
+* 🕰️ Animated hour hand
+* ⚫ Center pin
+* 🖥️ Digital `HH:MM:SS` time display
+* 🔄 Real-time updates
+* ⚡ Smooth animation using `blit=True`
+
+### Concepts Learned
+
+* `datetime.now()`
+* `FuncAnimation`
+* `update(frame)`
+* Matplotlib Line Artists
+* Matplotlib Text Artists
+* Matplotlib Circle
+* `set_data()`
+* `set_text()`
+* `np.sin()`
+* `np.cos()`
+* `np.pi`
+* Radians
+* Angle calculation
+* Coordinate systems
+* Converting angles into `(x, y)` coordinates
+* Updating multiple Artists
+* Real-time animation
+* `blit=True`
+
+### Mathematical Concept
+
+The position of each clock hand is calculated using:
+
+```text
+x = r × cos(angle)
+y = r × sin(angle)
+
+The clock converts:
+
+60 seconds → one full rotation
+60 minutes → one full rotation
+12 hours   → one full rotation
+The hour and minute calculations also include fractional time so that the hands move naturally between the clock numbers.
+
+### Technologies
+
+Python, NumPy, Matplotlib, datetime
+
+### File
+
+`Animation04_Analog_Clock.py`
+
 ## 📚 My Learning Progress
 
 | Project   | Topic                   | Status      |
@@ -174,7 +239,7 @@ Animation03_Interactive_Sine_Wave.py
 | Project 1 | Bouncing Ball Animation | ✅ Completed |
 | Project 2 | Moving Car Animation    | ✅ Completed |
 | Project 3 | Sine Wave Animation     | ✅  Completed |
-| Project 4 | Analog Clock            | 🔜 Upcoming |
+| Project 4 | Analog Clock            | ✅ Completed |
 | Project 5 | Solar System            | 🔜 Upcoming |
 
 ---
