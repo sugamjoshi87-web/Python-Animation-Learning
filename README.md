@@ -238,6 +238,50 @@ The hour and minute calculations also include fractional time so that the hands 
 `Animation04_Analog_Clock.py`
 ```
 
+### 5. 🌍 Solar System Animation
+
+A solar system animation created using **Python and Matplotlib**, demonstrating planetary orbital motion and the Moon's movement around Earth.
+
+## Features:
+
+* ☀️ Sun with a simple glow effect
+* 🪐 Planetary orbits
+* 🌍 Multiple planets with different orbital radii and speeds
+* 🌙 Moon orbiting around Earth
+* 🏷️ Labels for planets and Moon
+* 🔄 Continuous frame-by-frame animation
+
+## Concepts practiced:
+
+* `FuncAnimation()`
+* `update(frame)`
+* Matplotlib `Circle` Patches
+* Matplotlib Artists
+* `np.sin()` and `np.cos()`
+* Circular motion
+* Lists and `zip()`
+* Functions for organizing code
+* Updating Artist positions
+* Relative motion
+* `blit=True`
+
+## Main learning:
+This project helped me understand how multiple moving objects can be managed together in an animation. I learned how to calculate circular motion using sine and cosine and how to make the Moon follow Earth's changing position.
+
+The planetary distances and speeds are simplified for visualization and learning purposes rather than representing real astronomical scales.
+
+## Technologies:
+
+* Python
+* NumPy
+* Matplotlib
+
+## File
+
+```
+`Animation05_Solar System.py`
+```
+
 ## 📚 My Learning Progress
 
 | Project   | Topic                   | Status      |
@@ -246,7 +290,7 @@ The hour and minute calculations also include fractional time so that the hands 
 | Project 2 | Moving Car Animation    | ✅ Completed |
 | Project 3 | Sine Wave Animation     | ✅  Completed |
 | Project 4 | Analog Clock            | ✅ Completed |
-| Project 5 | Solar System            | 🔜 Upcoming |
+| Project 5 | Solar System            | ✅ Completed|
 
 ---
 
